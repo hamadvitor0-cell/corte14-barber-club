@@ -46,13 +46,13 @@ export function Introduction() {
         </div>
         <figure className="intro-figure">
           <Photo
-            name="essence.jpg"
-            alt="Mãos de um barbeiro trabalhando em um corte de cabelo"
+            name="essence-concept.jpg"
+            alt="Detalhe de um corte de cabelo em cena fictícia gerada por IA"
             parallax
           />
           <figcaption>
             <span>01 — O cuidado está no processo.</span>
-            <span>© Fotografia ilustrativa</span>
+            <span>Imagem conceitual / IA</span>
           </figcaption>
         </figure>
       </div>

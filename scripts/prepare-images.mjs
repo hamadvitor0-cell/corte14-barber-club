@@ -7,7 +7,7 @@ const destination = path.join(root, "optimized");
 await fs.mkdir(destination, { recursive: true });
 let generated = 0;
 for (const file of await fs.readdir(root)) {
-  if (!/\.jpe?g$/i.test(file) || file === "og-cover.jpg") continue;
+  if (!/\.jpe?g$/i.test(file) || file.startsWith("og-cover")) continue;
   const original = path.join(root, file);
   const originalTime = (await fs.stat(original)).mtimeMs;
   for (const width of [384, 640, 960, 1280, 1920]) {

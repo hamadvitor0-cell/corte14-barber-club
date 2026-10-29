@@ -35,3 +35,12 @@ O build estático foi servido localmente para validar o comportamento de produç
 - Preferência de movimento reduzido e cleanup das animações foram revisados no código; a preferência do sistema não foi alterada durante a revisão.
 
 Os testes no navegador não substituem avaliação com leitor de tela ou teste em dispositivos físicos.
+
+## Revisão do acervo — 29 de outubro de 2026
+
+- As 11 imagens de conteúdo foram substituídas por imagens geradas por IA a partir de texto, sem fotos de referência. A capa Open Graph também foi recriada a partir do novo hero e recebeu uma URL diferente.
+- Fotografias e WebP antigos foram retirados de `public/`. A exportação foi conferida: os caminhos antigos `images/hero.jpg` e `images/rafael.jpg` não estão no build.
+- Proveniência conferida por SHA-256 para os 11 arquivos finais; prompts, arquivos de origem gerados e dimensões estão documentados em `docs/`.
+- Equipe e galeria revisadas no navegador: avisos de personagens fictícios e imagens geradas por IA aparecem no conteúdo visível e nas descrições alternativas. O lightbox mantém a navegação por teclado e o fechamento por Escape.
+- Build de produção e lint aprovados após a substituição.
+- O histórico Git anterior e eventuais caches externos não foram apagados. Essa revisão trata dos arquivos ativos e da nova publicação.

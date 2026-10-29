@@ -30,7 +30,7 @@ export function Services() {
               <Image
                 key={service.id}
                 src={`/images/${service.image}`}
-                alt={service.name + " — fotografia ilustrativa"}
+                alt={service.name + " — imagem conceitual gerada por IA"}
                 fill
                 sizes="(max-width: 767px) 90vw, 30vw"
                 className={active === i ? "is-active" : ""}

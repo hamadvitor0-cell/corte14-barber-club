@@ -6,11 +6,11 @@ export function Hero() {
     <section className="hero" id="inicio" aria-labelledby="hero-title">
       <div className="hero-photo">
         <Image
-          src="/images/hero.jpg"
+          src="/images/hero-concept.jpg"
           fill
           preload
           sizes="100vw"
-          alt="Barbeiro finalizando um corte com precisão; fotografia ilustrativa em preto e branco"
+          alt="Cena de um corte em uma barbearia fictícia, gerada por IA para este projeto"
           className="hero-image"
         />
         <div className="hero-shade" />

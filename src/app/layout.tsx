@@ -34,17 +34,17 @@ export const metadata: Metadata = {
       "Uma experiência de estilo, precisão e identidade. Projeto conceitual por Viham Dev.",
     images: [
       {
-        url: "/images/og-cover.jpg",
+        url: "/images/og-cover-concept.jpg",
         width: 1200,
         height: 630,
-        alt: "Corte 14 — Barber Club, projeto conceitual",
+        alt: "Corte 14 — projeto conceitual com imagem gerada por IA",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "CORTE 14 — Barber Club",
-    images: ["/images/og-cover.jpg"],
+    images: ["/images/og-cover-concept.jpg"],
   },
   icons: { icon: "/icon.svg" },
 };

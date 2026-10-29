@@ -13,7 +13,7 @@ for (const [name, color] of [
     path.join("public/logos", `corte14-${name}.svg`),
     logo.replaceAll("COLOR", color),
   );
-const background = await sharp("public/images/hero.jpg")
+const background = await sharp("public/images/hero-concept.jpg")
   .resize(1200, 630, { fit: "cover" })
   .grayscale()
   .modulate({ brightness: 0.35 })
@@ -22,5 +22,5 @@ const cover = `<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg"
 await sharp(background)
   .composite([{ input: Buffer.from(cover) }])
   .jpeg({ quality: 88 })
-  .toFile("public/images/og-cover.jpg");
+  .toFile("public/images/og-cover-concept.jpg");
 console.log("Created 3 vector logo versions and Open Graph cover.");

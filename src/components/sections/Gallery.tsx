@@ -22,7 +22,7 @@ export function Gallery() {
       aria-labelledby="gallery-title"
     >
       <div className="section-heading">
-        <SectionLabel light>05 / Nosso trabalho</SectionLabel>
+        <SectionLabel light>05 / Universo visual</SectionLabel>
         <span className="eyebrow dim">Um olhar sobre o nosso universo.</span>
       </div>
       <div className="gallery-heading">
@@ -45,7 +45,7 @@ export function Gallery() {
             key={photo.image}
             className={`gallery-item gallery-item-${i}`}
             onClick={() => setIndex(i)}
-            aria-label={`Ver foto ${i + 1}: ${photo.title}`}
+            aria-label={`Ver imagem ${i + 1}: ${photo.title}`}
             data-photo-reveal
           >
             <Image
@@ -60,7 +60,7 @@ export function Gallery() {
             />
             <span className="gallery-item-top">{photo.category}</span>
             <span className="gallery-view">
-              Ver foto <ArrowUpRight size={18} />
+              Ver imagem <ArrowUpRight size={18} />
             </span>
             <span className="gallery-plus" aria-hidden="true">
               +
@@ -69,8 +69,8 @@ export function Gallery() {
         ))}
       </div>
       <p className="gallery-note">
-        Ensaio visual de referência. Fotografias ilustrativas, sem vínculo com
-        uma barbearia real.
+        Imagens geradas por IA para este projeto. Pessoas, cortes e ambiente são
+        fictícios e não representam trabalhos de uma barbearia real.
       </p>
       <dialog
         ref={dialog}
@@ -97,7 +97,7 @@ export function Gallery() {
               <button
                 className="icon-button"
                 onClick={() => setIndex(null)}
-                aria-label="Fechar foto"
+                aria-label="Fechar imagem"
               >
                 <X />
               </button>
@@ -125,22 +125,22 @@ export function Gallery() {
               <div aria-live="polite">
                 <h3 id="lightbox-title">{gallery[index].title}</h3>
                 <span>
-                  Fotografia ilustrativa / {String(index + 1).padStart(2, "0")}{" "}
-                  — {String(gallery.length).padStart(2, "0")}
+                  Imagem gerada por IA / {String(index + 1).padStart(2, "0")} —{" "}
+                  {String(gallery.length).padStart(2, "0")}
                 </span>
               </div>
               <div className="lightbox-arrows">
                 <button
                   className="icon-button"
                   onClick={() => change(-1)}
-                  aria-label="Foto anterior"
+                  aria-label="Imagem anterior"
                 >
                   <ArrowLeft />
                 </button>
                 <button
                   className="icon-button"
                   onClick={() => change(1)}
-                  aria-label="Próxima foto"
+                  aria-label="Próxima imagem"
                 >
                   <ArrowRight />
                 </button>

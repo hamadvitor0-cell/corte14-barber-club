@@ -1,0 +1,25 @@
+{
+  "created": "2026-10-29",
+  "generator": "imagegen (built-in)",
+  "mode": "generate",
+  "referenceImages": [],
+  "notes": "New text-to-image assets for a fictional concept. No stock photos, real persons, brands or salons supplied as references.",
+  "assets": [
+    {
+      "key": "hero-concept",
+      "prompt": "Use case: photorealistic-natural. Asset type: website hero for fictional CORTE 14 Barber Club. Create one original cinematic black-and-white editorial scene, wide landscape 3:2 composition, approximately 1920x1280 or higher. A fictional adult male client receiving a precise haircut; anonymous barber's anatomically correct hands holding a generic unbranded clipper and comb, realistic professional grip. The haircut action, side/back of the client's head and hands occupy the RIGHT half (x 55-90%); LEFT 45% is genuinely dark, softly out of focus, atmospheric negative space for website typography which will be added in code. Premium modern minimalist barbershop, charcoal walls, subtle practical sidelighting, natural hair and skin texture, shallow depth of field, crisp tool detail, restrained film grain, strong editorial contrast with readable midtones. Client face mostly turned away. Fictional people and fictional room invented entirely from text; do not imitate any identifiable person, celebrity, existing photograph, real salon or brand. No tattoos, labels, logos, text, watermark, visible brands, collages, borders or graphic overlays. This should feel like refined independent fashion editorial photography, not an AI glamour render."
+    },
+    {
+      "key": "rafael-concept",
+      "prompt": "Use case: photorealistic-natural. Asset type: vertical editorial portrait for fictional barber character in a website. One original black-and-white 2:3 portrait of an entirely imaginary adult man around 38 with short dark textured hair, subtle greying temples, neat short beard, warm serious expression, matte black crew-neck work shirt. Waist/chest up, relaxed standing posture, looking a little off camera. Contemporary dark charcoal studio/barbershop background, soft directional window light, believable pores and hair texture, refined independent fashion editorial, honest human proportions. Keep head and shoulders fully within central 65%, ample but restrained headroom for responsive cropping. Person must be newly invented from text with no references to any real individual or celebrity or existing photograph. Generic clothing without logos, no tattoos, no distinctive copyrighted artwork, no text, no signature, no watermark, no border, no collage. No resemblance to a known public figure. This depicts a fictional persona and will be labelled AI-generated."
+    },
+    {
+      "key": "lucas-concept",
+      "prompt": "Use case: photorealistic-natural. Asset type: vertical editorial portrait for fictional barber character in a website. One original black-and-white 2:3 portrait of an entirely imaginary adult man around 29, medium-dark skin, short tightly curled hair with a clean taper, clean shaven face, subtle confident smile, plain dark work overshirt over black T-shirt. Chest/waist up, relaxed posture with one generic unbranded electric hair clipper held naturally at lower chest, tool not covering face. Modern charcoal barbershop/studio background, soft dramatic side light, real skin and hair texture, understated premium independent fashion editorial. Keep head shoulders hands fully within central 65%, ample but restrained headroom. Invent the person entirely from text without referring to any real individual or celebrity or existing photograph. No logos, no text, no tattoos, no signature, no watermark, no border, no collage. No resemblance to a known public figure. This depicts a fictional persona and will be labelled AI-generated."
+    },
+    {
+      "key": "andre-concept",
+      "prompt": "Use case: photorealistic-natural. Asset type: vertical editorial portrait for fictional barber character in a website. Create one original black-and-white 2:3 portrait of a completely imaginary adult man around 43 with medium olive skin, close cropped wavy dark hair, neatly shaped substantial beard, calm friendly expression, plain black buttoned work shirt. Chest/waist-up, head turned slightly three-quarter, natural proportions, hands relaxed below frame. Minimalist dark charcoal barbershop backdrop, tactile plaster, shallow depth of field, sculpted soft side lighting, refined independent fashion editorial, realistic pores and beard strands, not glossy or airbrushed. Head and shoulders fully within central 65%, restrained headroom. Invent the person entirely from text; do not reference or imitate any real individual, celebrity, stock photograph or salon. No logos, labels, tattoos, text, watermarks, borders, collages or graphic overlays. This is a fictional character and will be labelled AI-generated."
+    }
+  ]
+}

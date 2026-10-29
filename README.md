@@ -1,6 +1,6 @@
 # CORTE 14 — BARBER CLUB
 
-Website conceitual criado para o portfólio da **Viham Dev**. Marca, equipe, preços, horários e estabelecimento fictícios. As fotografias são ilustrativas. O fluxo de agendamento é uma simulação local: não envia dados, não gera reservas e não realiza cobranças.
+Website conceitual criado para o portfólio da **Viham Dev**. Marca, equipe, preços, horários e estabelecimento fictícios. As imagens da versão atual são geradas por IA a partir de descrições textuais, sem fotografias externas como referência. Os retratos representam personagens fictícios. O fluxo de agendamento é uma simulação local: não envia dados, não gera reservas e não realiza cobranças.
 
 ## Executar
 
@@ -40,7 +40,7 @@ As seções de apresentação usam Server Components. Navbar, serviços, galeria
 
 Carvão `#111210`, papel `#F3F1E9` e lima `#D6DE55`. Barlow Condensed e Manrope são hospedadas localmente por `next/font/local`, com licenças em `public/fonts/`.
 
-GSAP e ScrollTrigger coordenam o reveal da fotografia e das linhas do hero, entradas por scroll, máscaras, parallax desktop e manifesto. CSS controla microinterações, navbar, diálogos, menu e marquee com pausa. `prefers-reduced-motion` desativa movimento; o conteúdo permanece acessível.
+GSAP e ScrollTrigger coordenam o reveal da imagem e das linhas do hero, entradas por scroll, máscaras, parallax desktop e manifesto. CSS controla microinterações, navbar, diálogos, menu e marquee com pausa. `prefers-reduced-motion` desativa movimento; o conteúdo permanece acessível.
 
 Galeria: seis imagens, contador, anterior/próximo, teclas de direção, Escape e gestos de toque. Diálogos nativos mantêm o foco dentro do modal e devolvem o foco ao fechar. O menu mobile fecha ao navegar ou usar Escape.
 
@@ -50,7 +50,7 @@ Agendamento: serviço → profissional → data → horário → resumo → conc
 
 Edite dados compartilhados em `src/lib/content.ts`. Textos editoriais específicos ficam nos componentes das seções. Tokens, espaçamentos e breakpoints ficam em `src/app/globals.css`. Metadados ficam em `src/app/layout.tsx`.
 
-Fotografias originais: `public/images/`. Consulte **[IMAGE_CREDITS.md](IMAGE_CREDITS.md)** antes de substituir ou reutilizar os arquivos. Preserve nomes ou atualize o arquivo de conteúdo correspondente.
+Imagens conceituais: `public/images/*-concept.jpg`. Consulte **[IMAGE_CREDITS.md](IMAGE_CREDITS.md)** e o registro de prompts em `docs/image-generation-prompts.json` antes de substituir os arquivos. A versão atual não utiliza as fotografias do Pexels da primeira versão. Preserve os avisos de imagem gerada por IA e atualize também os textos alternativos ao substituir uma imagem.
 
 ```sh
 pnpm images

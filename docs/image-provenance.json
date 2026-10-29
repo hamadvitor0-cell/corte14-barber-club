@@ -1,0 +1,104 @@
+{
+  "created": "2026-10-29",
+  "assets": [
+    {
+      "file": "public/images/hero-concept.jpg",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "466fde34b8b32163b083e0eab7d7ef9abd336ae5d7674571ad67eced4e1018bf",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-c7283697-4eee-44ca-b2b0-10d8d2d97078.png"
+    },
+    {
+      "file": "public/images/rafael-concept.jpg",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "3eb1260895112e4c4357ffce1f0535f24064126a27cdc014b3d645a3251c978f",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-a1fa9f0c-d40a-4cc8-a1d4-fa7c5c01b860.png"
+    },
+    {
+      "file": "public/images/lucas-concept.jpg",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "83b4bd46fea095d6a7dd00e75e5d63870ca486d29bb63ca128ec1e6f45ab82aa",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-96a8b7e3-60ed-4b66-a339-b1a0c0954b99.png"
+    },
+    {
+      "file": "public/images/andre-concept.jpg",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f22b9beb1b378b522b4d8da959caf11795813d460892a6f53b513b559f315759",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-64496a3c-581a-41d6-8d58-bcc2d6688efa.png"
+    },
+    {
+      "file": "public/images/essence-concept.jpg",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "d0ed0ef78eaee242ca7d320932a5547add0aa5405391dc7213b36038531fdec9",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-64873c39-7e75-4fd7-a61b-55b8c28b44c6.png"
+    },
+    {
+      "file": "public/images/interior-concept.jpg",
+      "width": 1280,
+      "height": 853,
+      "sha256": "042aa7a7845a62f763a983fe71d3b068e54b9e03ddf389956f7930dd4813333c",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-a414d249-e21f-48eb-a19a-ccde365f7a92.png"
+    },
+    {
+      "file": "public/images/tools-concept.jpg",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "46f943eb451570843cb8a53701b595d7f3cc2334962342ce0d4114754a27d050",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-95b46a96-3218-4b49-a37c-cbd028f0bd9b.png"
+    },
+    {
+      "file": "public/images/gallery-fade-concept.jpg",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "4b5b569664ffa6295176525543d18ac8a32c9eeea27f52905c00c3a8c8bba66e",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-f7b788ae-d4fd-48cb-b7a7-e7e1d270fd73.png"
+    },
+    {
+      "file": "public/images/gallery-classic-concept.jpg",
+      "width": 1086,
+      "height": 1448,
+      "sha256": "fd61cc9fd0d74027567d261552487baefe5801d95de1d36c543ccf4def4ece20",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-a7ba5b25-77a8-44e0-ad2c-834d88c1655c.png"
+    },
+    {
+      "file": "public/images/gallery-beard-concept.jpg",
+      "width": 1280,
+      "height": 960,
+      "sha256": "06e5e3c485ae42dc4da8c42743edfbf3e6da7e7ab9f3bf6555069bba8d8be224",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-6de41799-701c-402a-a147-682bda27f39b.png"
+    },
+    {
+      "file": "public/images/gallery-finish-concept.jpg",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a9b5b6dc29eda0f6ae39868b7bdb0619db88920efd2210a9db393fbeaa1c59ec",
+      "generator": "imagegen (built-in)",
+      "referenceImages": [],
+      "originalGenerationFile": "exec-7c14646f-0330-48a8-bd44-f6b15141d5a6.png"
+    }
+  ]
+}

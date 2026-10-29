@@ -24,7 +24,7 @@ export function Team() {
           <br />
           Técnicas que se complementam.
           <br />
-          Conheça a nossa equipe conceitual.
+          Três personagens criados para este conceito.
         </p>
       </div>
       <div className="team-grid">
@@ -38,7 +38,7 @@ export function Team() {
             <div className="member-photo">
               <Photo
                 name={person.image}
-                alt={`Retrato ilustrativo de ${person.name}, personagem fictício`}
+                alt={`Imagem gerada por IA para ${person.name}, personagem fictício`}
                 sizes="(max-width: 767px) 90vw, 30vw"
               />
               <span className="member-number">/{person.number}</span>
@@ -51,13 +51,16 @@ export function Team() {
               <ArrowUpRight size={21} aria-hidden="true" />
             </div>
             <p>{person.specialty}</p>
+            <small className="member-provenance">
+              Personagem fictício · Imagem gerada por IA
+            </small>
           </article>
         ))}
       </div>
       <div className="team-end">
         <p>
-          Profissionais fictícios. Retratos usados apenas para ilustrar o
-          conceito.
+          Personagens e retratos gerados para este conceito. Não representam
+          profissionais reais ou pessoas vinculadas à marca.
         </p>
         <BookButton className="button-dark">Encontre seu estilo</BookButton>
       </div>

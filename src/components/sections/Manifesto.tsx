@@ -7,8 +7,8 @@ export function Manifesto() {
       </span>
       <div className="manifesto-photo">
         <Photo
-          name="gallery-classic.jpg"
-          alt="Retrato editorial ilustrativo de um corte masculino"
+          name="gallery-classic-concept.jpg"
+          alt="Imagem de corte masculino em personagem fictício, gerada por IA"
           parallax
         />
       </div>
