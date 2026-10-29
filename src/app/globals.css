@@ -825,7 +825,7 @@ h2 {
   color: transparent;
   -webkit-text-stroke: 1px #c7c8c0;
 }
-.about-heading > p {
+.about-heading > p:not(.section-label) {
   position: absolute;
   right: var(--gutter);
   top: 90px;
@@ -2103,7 +2103,7 @@ dialog[open] {
     flex-direction: column;
     gap: 8px;
   }
-  .about-heading > p {
+  .about-heading > p:not(.section-label) {
     top: 64px;
   }
   .team-grid {
@@ -2514,13 +2514,13 @@ dialog[open] {
     margin-top: 34px;
     line-height: 1.03;
   }
-  .about-heading > p {
+  .about-heading > p:not(.section-label) {
     position: static;
     font-size: 11px;
     line-height: 1.8;
     margin-top: 24px;
   }
-  .about-heading > p > br:nth-child(2) {
+  .about-heading > p:not(.section-label) > br:nth-child(2) {
     display: none;
   }
   .about-collage {

@@ -61,7 +61,7 @@ O primeiro comando gera WebP locais em cinco larguras, consumidos pelo loader do
 
 ## Publicar na Vercel
 
-Importe este repositório na Vercel com a pasta raiz do repositório como Root Directory. `vercel.json` já define Next.js, `pnpm install --frozen-lockfile`, `pnpm build` e saída `out/`.
+Importe este repositório na Vercel com a pasta raiz do repositório como Root Directory. `vercel.json` já define Next.js, `pnpm install --frozen-lockfile` e `pnpm build`. Mantenha a pasta de saída no padrão da integração nativa do Next.js na Vercel; não sobrescreva Output Directory com `out`. A pasta `out/` continua disponível para prévia local ou outra hospedagem estática.
 
 Se o domínio mudar, configure `NEXT_PUBLIC_SITE_URL` na Vercel e faça novo deploy para atualizar as URLs das imagens Open Graph. Nenhuma chave de API é necessária.
 
