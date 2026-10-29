@@ -1,0 +1,7 @@
+node_modules
+.next
+.git
+.openai
+.sites-runtime
+qa
+*.tsbuildinfo

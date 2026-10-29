@@ -1,0 +1,37 @@
+{
+  "name": "corte14-barber-club",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "dev": "node scripts/prepare-images.mjs && next dev --hostname 127.0.0.1",
+    "build": "node scripts/prepare-images.mjs && next build",
+    "images": "node scripts/prepare-images.mjs",
+    "start": "node scripts/serve.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "node --experimental-strip-types --test tests/booking.test.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "gsap": "^3.14.2",
+    "lucide-react": "^0.577.0",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^16.1.6",
+    "sharp": "^0.34.5",
+    "typescript": "^5.9.3"
+  }
+}
